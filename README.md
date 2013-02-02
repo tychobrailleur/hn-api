@@ -1,6 +1,8 @@
 = hn-api
 
-Description goes here.
+Ruby interface to api.ihackernews.com
+
+hn-api is based on [Faraday](http://rubydoc.info/gems/faraday/0.8.4/frames)
 
 == Contributing to hn-api
  
