@@ -20,6 +20,9 @@ Jeweler::Tasks.new do |gem|
   gem.description = %Q{Ruby interface to api.ihackernews.com}
   gem.email = "sebastien@weblogism.com"
   gem.authors = ["Sébastien Le Callonnec"]
+
+  # Add executable to gem for debug purposes.
+  gem.executables = ['hn-api']
   # dependencies defined in Gemfile
 end
 Jeweler::RubygemsDotOrgTasks.new

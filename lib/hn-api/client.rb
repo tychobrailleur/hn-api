@@ -6,7 +6,8 @@ module HnApi
     # Retrieve the latest posts from HN API, and transform into an object-like
     # response with Hashie.
     def latest
-      Hashie::Mash.new(connection.get("/page").body)
+      content = connection.get("/page").body
+      Hashie::Mash.new(content)
     end
 
     private 
