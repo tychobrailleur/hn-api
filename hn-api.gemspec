@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["S\u{e9}bastien Le Callonnec"]
-  s.date = "2013-02-02"
+  s.date = "2013-03-30"
   s.description = "Ruby interface to api.ihackernews.com"
   s.email = "sebastien@weblogism.com"
   s.executables = ["hn-api"]
@@ -27,6 +27,7 @@ Gem::Specification.new do |s|
     "Rakefile",
     "VERSION",
     "bin/hn-api",
+    "hn-api.gemspec",
     "lib/hn-api.rb",
     "lib/hn-api/client.rb",
     "spec/client_spec.rb",
